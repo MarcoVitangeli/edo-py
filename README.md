@@ -1,6 +1,6 @@
 # Playground de EDO con Python
 
-Un espacio de trabajo listo para experimentar con ecuaciones diferenciales ordinarias (EDO). La primera actividad usa únicamente JupyterLab y SymPy.
+Un espacio de trabajo listo para experimentar con ecuaciones diferenciales ordinarias (EDO) usando Python con SymPy.
 
 ## Único requisito
 
