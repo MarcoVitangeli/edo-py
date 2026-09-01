@@ -1,24 +1,24 @@
-# Playground de EDO con Python
+# Explorador de EDO con Python
 
-Un espacio de trabajo listo para experimentar con ecuaciones diferenciales ordinarias (EDO) usando Python con SymPy.
+Un espacio de trabajo listo para experimentar con ecuaciones diferenciales ordinarias (EDO). La primera actividad usa únicamente JupyterLab y SymPy.
 
 ## Único requisito
 
 Tener instalado Python 3.10 o superior. No hace falta instalar paquetes ni configurar variables de entorno manualmente.
 
-La primera apertura requiere conexión a Internet: el lanzador crea un entorno aislado en `.venv` e instala las dependencias. A partir de ahí, las dependencias quedan instaladas localmente en esa carpeta y el playground puede abrirse sin volver a descargarlas.
+La primera apertura requiere conexión a Internet: el lanzador crea un entorno aislado en `.venv` e instala las dependencias. A partir de ahí, las dependencias quedan instaladas localmente en esa carpeta y el explorador puede abrirse sin volver a descargarlas.
 
 ## Windows
 
 1. Descarga o clona este repositorio.
-2. Haz doble clic en `start_playground.bat`.
+2. Haz doble clic en `iniciar_edo.bat`.
 3. Espera a que se abra JupyterLab en el navegador.
-4. Abre `playground_edo.ipynb` y ejecuta las celdas con `Shift + Enter`.
+4. Abre `explorador_edo.ipynb` y ejecuta las celdas con `Shift + Enter`.
 
 Si Windows pregunta cómo abrir el archivo, selecciona ejecutar o abre una terminal dentro de la carpeta y ejecuta:
 
 ```bat
-start_playground.bat
+iniciar_edo.bat
 ```
 
 ## macOS y Linux
@@ -26,8 +26,8 @@ start_playground.bat
 Desde una terminal en esta carpeta:
 
 ```bash
-chmod +x start_playground.sh
-./start_playground.sh
+chmod +x iniciar_edo.sh
+./iniciar_edo.sh
 ```
 
 ## Qué hace el lanzador
@@ -40,9 +40,9 @@ Para detener JupyterLab, vuelve a la terminal o ventana que lo abrió y presiona
 
 ## Archivos importantes
 
-- `playground_edo.ipynb`: notebook inicial con ejemplos de SymPy.
-- `start_playground.bat`: entrada recomendada para Windows.
-- `start_playground.sh`: entrada para macOS y Linux.
+- `explorador_edo.ipynb`: cuaderno inicial con ejemplos de SymPy.
+- `iniciar_edo.bat`: entrada recomendada para Windows.
+- `iniciar_edo.sh`: entrada para macOS y Linux.
 - `requirements.txt`: dependencias del curso. Incluye paquetes para actividades futuras; si se modifica, borra `.venv` para volver a instalarlas.
 
 ## Solución de problemas

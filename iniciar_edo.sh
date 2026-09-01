@@ -16,11 +16,11 @@ if [ ! -x .venv/bin/python ]; then
   "$PYTHON" -m venv .venv
 fi
 
-if [ ! -f .venv/.playground-ready ]; then
+if [ ! -f .venv/.entorno-listo ]; then
   echo "Instalando dependencias por primera vez..."
   .venv/bin/python -m pip install --upgrade pip
   .venv/bin/python -m pip install -r requirements.txt
-  touch .venv/.playground-ready
+  touch .venv/.entorno-listo
 else
   echo "Dependencias listas."
 fi

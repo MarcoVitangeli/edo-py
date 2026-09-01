@@ -24,13 +24,13 @@ if not exist ".venv\Scripts\python.exe" (
   if errorlevel 1 goto :error
 )
 
-if not exist ".venv\.playground-ready" (
+if not exist ".venv\.entorno-listo" (
   echo Instalando dependencias por primera vez...
   .venv\Scripts\python.exe -m pip install --upgrade pip
   if errorlevel 1 goto :error
   .venv\Scripts\python.exe -m pip install -r requirements.txt
   if errorlevel 1 goto :error
-  type nul > ".venv\.playground-ready"
+  type nul > ".venv\.entorno-listo"
 ) else (
   echo Dependencias listas.
 )
@@ -42,6 +42,6 @@ exit /b 0
 
 :error
 echo.
-echo No se pudo preparar el playground. Verifica la conexion a Internet y vuelve a intentarlo.
+echo No se pudo preparar el explorador. Verifica la conexion a Internet y vuelve a intentarlo.
 pause
 exit /b 1
