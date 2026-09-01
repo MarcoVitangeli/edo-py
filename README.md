@@ -1,6 +1,6 @@
 # Playground de EDO con Python
 
-Un espacio de trabajo listo para experimentar con ecuaciones diferenciales ordinarias (EDO). Incluye JupyterLab, SymPy, SciPy, NumPy y Matplotlib.
+Un espacio de trabajo listo para experimentar con ecuaciones diferenciales ordinarias (EDO). La primera actividad usa únicamente JupyterLab y SymPy.
 
 ## Único requisito
 
@@ -40,10 +40,10 @@ Para detener JupyterLab, vuelve a la terminal o ventana que lo abrió y presiona
 
 ## Archivos importantes
 
-- `playground_edo.ipynb`: notebook inicial con ejemplos de SymPy y SciPy.
+- `playground_edo.ipynb`: notebook inicial con ejemplos de SymPy.
 - `start_playground.bat`: entrada recomendada para Windows.
 - `start_playground.sh`: entrada para macOS y Linux.
-- `requirements.txt`: dependencias del curso. Si se modifica, borra `.venv` para volver a instalarlas.
+- `requirements.txt`: dependencias del curso. Incluye paquetes para actividades futuras; si se modifica, borra `.venv` para volver a instalarlas.
 
 ## Solución de problemas
 
