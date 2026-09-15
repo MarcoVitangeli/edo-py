@@ -41,6 +41,7 @@ Para detener JupyterLab, vuelve a la terminal o ventana que lo abrió y presiona
 ## Archivos importantes
 
 - `explorador_edo.ipynb`: cuaderno inicial con ejemplos de SymPy.
+- `ecuaciones_exactas.ipynb`: resolución simbólica de una EDO exacta, desde $y'$ hasta la solución explícita.
 - `iniciar_edo.bat`: entrada recomendada para Windows.
 - `iniciar_edo.sh`: entrada para macOS y Linux.
 - `requirements.txt`: dependencias del curso. Incluye paquetes para actividades futuras; si se modifica, borra `.venv` para volver a instalarlas.
